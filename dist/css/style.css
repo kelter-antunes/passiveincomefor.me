@@ -319,7 +319,7 @@ body {
 }
 
 body,button,input,select,textarea {
-    font-family: "Lato", sans-serif
+    font-family: 'Montserrat', sans-serif;
 }
 
 a {
@@ -335,7 +335,7 @@ a:hover,a:active {
 h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6 {
     clear: both;
     color: #202B36;
-    font-family: "PT Serif", serif;
+    font-family: 'Montserrat', sans-serif;
     font-weight: 700
 }
 
@@ -499,7 +499,7 @@ address {
 }
 
 pre,pre h1,pre h2,pre h3,pre h4,pre h5,pre h6,pre .h1,pre .h2,pre .h3,pre .h4,pre .h5,pre .h6 {
-    font-family: "Courier 10 Pitch", Courier, monospace
+    font-family: 'Montserrat', sans-serif;
 }
 
 pre,code,kbd,tt,var {
@@ -518,7 +518,7 @@ pre {
 }
 
 code,kbd,tt,var {
-    font-family: Monaco, Consolas, "Andale Mono", "DejaVu Sans Mono", monospace;
+    font-family: 'Montserrat', sans-serif;
     font-size: 16px;
     padding: 2px 4px
 }
@@ -1200,6 +1200,32 @@ button,input,select,textarea,label {
     mix-blend-mode: multiply
 }*/
 
+
+/* visa, mastercard accepted ... */
+.cards {
+  margin-top: 32px;
+}
+.cards > .visa {
+  background: url('https://payments.changelly.com/img/visa-logo-light.svg');
+  display: inline-block;
+  width: 44px;
+  height: 20px;
+  vertical-align: middle;
+}
+.cards > .mastercard {
+  background: url('https://payments.changelly.com//img/mastercard-logo.svg');
+  display: inline-block;
+  width: 32px;
+  height: 20px;
+  vertical-align: middle;
+}
+.cards > .text {
+  font-size: 14px;
+  color: #b3b4b4;
+}
+
+
+
 @supports (-ms-ime-align: auto) {
     .hero-media::before {
         box-shadow: 0 16px 48px rgba(32,43,54,0.12)
@@ -1208,7 +1234,7 @@ button,input,select,textarea,label {
 
 @media (min-width: 641px) {
     .hero {
-        padding-top:80px
+        padding-top: 50px;
     }
 
     .hero-paragraph {
@@ -1218,8 +1244,8 @@ button,input,select,textarea,label {
     }
 
     .hero-media {
-        margin-top: 64px;
-        height: 400px
+        margin-top: 40px;
+        height: 400px;
     }
 }
 
